@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec {
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-text {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 8px 0;
+    border: none;
+    border-radius: 20px;
+    padding-left: 12px;
+    border: solid 1px white;
+    background-color: transparent;
+    color: white;
+}
+
+button {
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: solid 1px white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: all, 0.3s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
